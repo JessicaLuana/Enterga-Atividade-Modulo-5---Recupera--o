@@ -1,0 +1,18 @@
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 48px 0
+    }
+    
+    ._background {
+        width: calc(100% + 24px);
+        height: 85vh;
+        background-image: url("/public/img/65.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        left: -12px;
+        right: -14px !important;
+        position: relative;
+    }
